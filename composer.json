@@ -1,5 +1,17 @@
 {
+    "name": "mathieuimbert/simple-email-parser",
+    "authors": [
+        {
+            "name": "Mathieu Imbert",
+            "email": "mathieu.imbert@gmail.com"
+        }
+    ],
     "require": {
         "soundasleep/html2text": "^0.2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "MathieuImbert\\SimpleEmailParser\\": "src/"
+        }
     }
 }
